@@ -12,13 +12,15 @@ package info.victorchu.simplecomputer.cricuit;
 public class NOTGate {
     private Wire output;
 
-    public NOTGate(){
+    public NOTGate() {
         this.output = new Wire(false);
     }
-    public void input(boolean input){
+
+    public void input(boolean input) {
         output.input(!input);
     }
-    public boolean output(){
+
+    public boolean output() {
         return this.output.output();
     }
 }

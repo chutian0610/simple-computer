@@ -12,19 +12,19 @@ package info.victorchu.simplecomputer.cricuit;
 public class Wire {
     /**
      * 电位的抽象，true or false 代表高低电位
-      */
-   private boolean value;
+     */
+    private boolean value;
 
-   public Wire(boolean value){
-       this.value = value;
-   }
+    public Wire(boolean value) {
+        this.value = value;
+    }
 
-   public void input(boolean value){
-       this.value = value;
-   }
+    public void input(boolean value) {
+        this.value = value;
+    }
 
-    public boolean output(){
-       return this.value;
+    public boolean output() {
+        return this.value;
     }
 
 }

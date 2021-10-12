@@ -15,13 +15,15 @@ public class ANDGate {
 
     private Wire output;
 
-    public ANDGate(){
+    public ANDGate() {
         this.output = new Wire(false);
     }
-    public void input(boolean input1,boolean input2){
+
+    public void input(boolean input1, boolean input2) {
         output.input(input1 & input2);
     }
-    public boolean output(){
+
+    public boolean output() {
         return this.output.output();
     }
 }
