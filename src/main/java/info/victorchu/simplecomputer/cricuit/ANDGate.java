@@ -1,7 +1,7 @@
 package info.victorchu.simplecomputer.cricuit;
 
 /**
- * 与门.
+ * 与门. Y=A·B
  * <pre>
  * 真值表:
  * input1 input2 output

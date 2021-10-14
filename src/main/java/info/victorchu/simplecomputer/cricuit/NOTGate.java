@@ -1,7 +1,7 @@
 package info.victorchu.simplecomputer.cricuit;
 
 /**
- * 非门.
+ * 非门.Y=A'
  * <pre>
  * 真值表:
  * input output
