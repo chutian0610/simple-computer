@@ -13,10 +13,10 @@ package info.victorchu.simplecomputer.cricuit;
  */
 public class ANDGate {
 
-    private Wire output;
+    private Potential output;
 
     public ANDGate() {
-        this.output = new Wire(false);
+        this.output = new Potential(false);
     }
 
     public void input(boolean input1, boolean input2) {

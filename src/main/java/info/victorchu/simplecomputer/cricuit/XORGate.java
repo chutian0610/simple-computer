@@ -12,10 +12,10 @@ package info.victorchu.simplecomputer.cricuit;
  * </pre>
  */
 public class XORGate {
-    private final Wire output;
+    private final Potential output;
 
     public XORGate() {
-        this.output = new Wire(false);
+        this.output = new Potential(false);
     }
 
     public void input(boolean input1, boolean input2) {

@@ -13,10 +13,10 @@ package info.victorchu.simplecomputer.cricuit;
  */
 public class NANDGate {
 
-    private Wire output;
+    private Potential output;
 
     public NANDGate() {
-        this.output = new Wire(false);
+        this.output = new Potential(false);
     }
 
     public void input(boolean input1, boolean input2) {

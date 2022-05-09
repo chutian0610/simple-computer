@@ -10,10 +10,10 @@ package info.victorchu.simplecomputer.cricuit;
  * </pre>
  */
 public class NOTGate {
-    private Wire output;
+    private Potential output;
 
     public NOTGate() {
-        this.output = new Wire(false);
+        this.output = new Potential(false);
     }
 
     public void input(boolean input) {
